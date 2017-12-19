@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		09C5606C0B11BB5157BFD086 /* Pods_PhotoUploadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDB0E52C143093B3EAA7E1A /* Pods_PhotoUploadTests.framework */; };
+		0A61E4841FE89F06004A0C88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A61E4831FE89F06004A0C88 /* GoogleService-Info.plist */; };
 		0A9DD7B61FE890BA0025E54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD7B51FE890BA0025E54C /* AppDelegate.swift */; };
 		0A9DD7B81FE890BA0025E54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD7B71FE890BA0025E54C /* ViewController.swift */; };
-		0A9DD7BB1FE890BA0025E54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9DD7B91FE890BA0025E54C /* Main.storyboard */; };
 		0A9DD7BD1FE890BA0025E54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9DD7BC1FE890BA0025E54C /* Assets.xcassets */; };
 		0A9DD7C01FE890BA0025E54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9DD7BE1FE890BA0025E54C /* LaunchScreen.storyboard */; };
 		0A9DD7CB1FE890BA0025E54C /* PhotoUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD7CA1FE890BA0025E54C /* PhotoUploadTests.swift */; };
 		0A9DD7D61FE890BA0025E54C /* PhotoUploadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD7D51FE890BA0025E54C /* PhotoUploadUITests.swift */; };
+		0AB4DA511FE8F570009B3E0E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4DA501FE8F570009B3E0E /* SignUpViewController.swift */; };
+		0AC76EE41FE9C74A00DA6B00 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76EE31FE9C74A00DA6B00 /* AdminViewController.swift */; };
+		0AC76EE61FE9C78100DA6B00 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76EE51FE9C78100DA6B00 /* UserViewController.swift */; };
 		424E2EA994A971ED7F3BAFFB /* Pods_PhotoUploadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ECD2625BF708E4860092A9 /* Pods_PhotoUploadUITests.framework */; };
 		B55B5CEE0C6638493BA0D3EA /* Pods_PhotoUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3FCFE09741F72D5EE876B /* Pods_PhotoUpload.framework */; };
 /* End PBXBuildFile section */
@@ -37,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A61E4831FE89F06004A0C88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A9DD7B21FE890BA0025E54C /* PhotoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9DD7B51FE890BA0025E54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9DD7B71FE890BA0025E54C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A9DD7BA1FE890BA0025E54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A9DD7BC1FE890BA0025E54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9DD7BF1FE890BA0025E54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A9DD7C11FE890BA0025E54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +53,9 @@
 		0A9DD7D11FE890BA0025E54C /* PhotoUploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoUploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9DD7D51FE890BA0025E54C /* PhotoUploadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUploadUITests.swift; sourceTree = "<group>"; };
 		0A9DD7D71FE890BA0025E54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB4DA501FE8F570009B3E0E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0AC76EE31FE9C74A00DA6B00 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		0AC76EE51FE9C78100DA6B00 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		3B4A60CBCBF8DF833978BB08 /* Pods-PhotoUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoUpload/Pods-PhotoUpload.release.xcconfig"; sourceTree = "<group>"; };
 		49B3FCFE09741F72D5EE876B /* Pods_PhotoUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62673D7D831573FBECB36E71 /* Pods-PhotoUploadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoUploadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoUploadUITests/Pods-PhotoUploadUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,12 +120,15 @@
 		0A9DD7B41FE890BA0025E54C /* PhotoUpload */ = {
 			isa = PBXGroup;
 			children = (
+				0A61E4831FE89F06004A0C88 /* GoogleService-Info.plist */,
 				0A9DD7B51FE890BA0025E54C /* AppDelegate.swift */,
 				0A9DD7B71FE890BA0025E54C /* ViewController.swift */,
-				0A9DD7B91FE890BA0025E54C /* Main.storyboard */,
 				0A9DD7BC1FE890BA0025E54C /* Assets.xcassets */,
 				0A9DD7BE1FE890BA0025E54C /* LaunchScreen.storyboard */,
 				0A9DD7C11FE890BA0025E54C /* Info.plist */,
+				0AB4DA501FE8F570009B3E0E /* SignUpViewController.swift */,
+				0AC76EE31FE9C74A00DA6B00 /* AdminViewController.swift */,
+				0AC76EE51FE9C78100DA6B00 /* UserViewController.swift */,
 			);
 			path = PhotoUpload;
 			sourceTree = "<group>";
@@ -283,7 +292,7 @@
 			files = (
 				0A9DD7C01FE890BA0025E54C /* LaunchScreen.storyboard in Resources */,
 				0A9DD7BD1FE890BA0025E54C /* Assets.xcassets in Resources */,
-				0A9DD7BB1FE890BA0025E54C /* Main.storyboard in Resources */,
+				0A61E4841FE89F06004A0C88 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +434,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoUpload/Pods-PhotoUpload-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -460,6 +471,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC76EE41FE9C74A00DA6B00 /* AdminViewController.swift in Sources */,
+				0AC76EE61FE9C78100DA6B00 /* UserViewController.swift in Sources */,
+				0AB4DA511FE8F570009B3E0E /* SignUpViewController.swift in Sources */,
 				0A9DD7B81FE890BA0025E54C /* ViewController.swift in Sources */,
 				0A9DD7B61FE890BA0025E54C /* AppDelegate.swift in Sources */,
 			);
@@ -497,14 +511,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0A9DD7B91FE890BA0025E54C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A9DD7BA1FE890BA0025E54C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A9DD7BE1FE890BA0025E54C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
