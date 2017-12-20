@@ -1,9 +1,9 @@
 # PhotoUpload
-iOS app to upload photos with comments
+iOS app to upload photos with comments <br>
 
-SO FAR it can only create and authenticate users
-differentiate between admin and regular users
+SO FAR it can only create and authenticate users <br>
+differentiate between admin and regular users <br>
 
-Admin account
-email: admin@photoupload.com
+Admin account <br>
+email: admin@photoupload.com <br>
 pass: Admin1234
