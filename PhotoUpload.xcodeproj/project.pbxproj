@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		09C5606C0B11BB5157BFD086 /* Pods_PhotoUploadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDB0E52C143093B3EAA7E1A /* Pods_PhotoUploadTests.framework */; };
+		0A406FB71FEA1D6A00310864 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A406FB61FEA1D6A00310864 /* Post.swift */; };
+		0A406FB91FEA31BC00310864 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A406FB81FEA31BC00310864 /* CollectionViewController.swift */; };
+		0A406FBB1FEA361400310864 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A406FBA1FEA361400310864 /* CollectionViewCell.swift */; };
 		0A61E4841FE89F06004A0C88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A61E4831FE89F06004A0C88 /* GoogleService-Info.plist */; };
 		0A9DD7B61FE890BA0025E54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD7B51FE890BA0025E54C /* AppDelegate.swift */; };
 		0A9DD7B81FE890BA0025E54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD7B71FE890BA0025E54C /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A406FB61FEA1D6A00310864 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0A406FB81FEA31BC00310864 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		0A406FBA1FEA361400310864 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		0A61E4831FE89F06004A0C88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A9DD7B21FE890BA0025E54C /* PhotoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9DD7B51FE890BA0025E54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 				0AB4DA501FE8F570009B3E0E /* SignUpViewController.swift */,
 				0AC76EE31FE9C74A00DA6B00 /* AdminViewController.swift */,
 				0AC76EE51FE9C78100DA6B00 /* UserViewController.swift */,
+				0A406FB61FEA1D6A00310864 /* Post.swift */,
+				0A406FB81FEA31BC00310864 /* CollectionViewController.swift */,
+				0A406FBA1FEA361400310864 /* CollectionViewCell.swift */,
 			);
 			path = PhotoUpload;
 			sourceTree = "<group>";
@@ -436,12 +445,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoUpload/Pods-PhotoUpload-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +484,10 @@
 			files = (
 				0AC76EE41FE9C74A00DA6B00 /* AdminViewController.swift in Sources */,
 				0AC76EE61FE9C78100DA6B00 /* UserViewController.swift in Sources */,
+				0A406FBB1FEA361400310864 /* CollectionViewCell.swift in Sources */,
 				0AB4DA511FE8F570009B3E0E /* SignUpViewController.swift in Sources */,
+				0A406FB71FEA1D6A00310864 /* Post.swift in Sources */,
+				0A406FB91FEA31BC00310864 /* CollectionViewController.swift in Sources */,
 				0A9DD7B81FE890BA0025E54C /* ViewController.swift in Sources */,
 				0A9DD7B61FE890BA0025E54C /* AppDelegate.swift in Sources */,
 			);

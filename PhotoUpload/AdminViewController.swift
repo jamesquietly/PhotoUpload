@@ -14,7 +14,7 @@ class AdminViewController: UIViewController {
     let userLabel = UILabel()
     let panelLabel = UILabel()
     let signOutButton = UIButton()
-    /Users/jamesly/Documents/PhotoUpload
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .orange
